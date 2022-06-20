@@ -1,0 +1,21 @@
+# Rime user dictionary
+#@/db_name	easy_en
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	39
+#@/user_id	droid-rMBP
+aria 	aria	c=4 d=3.72939 t=36
+call 	call	c=2 d=1.99005 t=33
+change 	change	c=1 d=1 t=28
+code 	code	c=1 d=1 t=3
+create 	create	c=1 d=1 t=27
+else 	else	c=18 d=16.3377 t=38
+final 	final	c=1 d=1 t=24
+java 	java	c=4 d=3.6349 t=39
+know 	know	c=1 d=1 t=37
+open 	open	c=1 d=1 t=1
+return 	return	c=1 d=1 t=4
+select 	select	c=1 d=1 t=25
+show 	show	c=1 d=1 t=15
+sublime 	sublime	c=1 d=1 t=23
+test 	test	c=1 d=1 t=34
