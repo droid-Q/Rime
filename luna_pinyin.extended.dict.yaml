@@ -35,18 +35,29 @@
 
 ---
 name: luna_pinyin.extended
-version: "2016.06.26"
-sort: by_weight  #字典初始排序，可選original或by_weight
+version: "2021.02.07"
+sort: by_weight                 # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
 use_preset_vocabulary: true
 #此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。
-#雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 
 import_tables:
-  - luna_pinyin
-#  - luna_pinyin.sogou
-  - luna_pinyin.sgmain
-  - luna_pinyin.poetry
-  - luna_pinyin.cn_en
+  - dicts/simp # 最小拼音词典
+  - dicts/simp-ext # 原字表中除单字外部分
+
+  - luna_pinyin #主词库
+  - luna_pinyin.sgmain #搜狗
+  - luna_pinyin.poetry #诗词
+   
+  - dicts/animal # 动物
+  - dicts/caijing # 财经
+  - dicts/food # 饮食
+  - dicts/idiom # 成语俗语
+  - dicts/IT # IT
+  - dicts/medical # 医学
+  - dicts/net # 网络流行语
+  - dicts/renmingdiming # 人名地名
+  - dicts/zhwiki # 维基百科
+
 ...
 
 
